@@ -1,5 +1,5 @@
-let nome = prompt('Digite seu primeiro nome: ')
-        let sobrenome = prompt('Digite seu sobrenome: ')
-        let nomeCompleto = `${nome} ${sobrenome}`
-        alert(`Nome completo: ${nomeCompleto}`)
-        alert(`Nome de catálogo: ${sobrenome.toUpperCase()}, ${nome}.`)
+let nome = prompt("digite o seu nome:");
+let sobrenome = prompt("digite o seu spbrenome:");
+
+let nomeCompleto = alert(`Nome completo: ${nome} ${sobrenome}`);
+let nomeCatalogo = alert(`Nome em catálogo: ${sobrenome.toUpperCase()}, ${nome}`)
